@@ -1,3 +1,3 @@
-# Welcome to PlanetProfit!
+# PlanetProfit
 
-Made with StreamLit
+Made with StreamLit in GOODHacks24
