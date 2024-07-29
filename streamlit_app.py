@@ -1,5 +1,5 @@
 import streamlit as st
-from st_pages import Page, show_pages, add_page_title, hide_pages, Section
+from st_pages import Page, add_page_title, hide_pages, Section
 from chatgpt import ask
 
 st.set_page_config(
@@ -10,12 +10,12 @@ st.set_page_config(
     }
 )
 
-show_pages(
-    [
-        Page("streamlit_app.py", "Savings", "🌱"),
-        Page("pages/community.py", "Community", "🌳")
-    ]
-)
+# show_pages(
+#     [
+#         Page("streamlit_app.py", "Savings", "🌱"),
+#         Page("pages/community.py", "Community", "🌳")
+#     ]
+# )
 
 col1t1,col2=st.columns(2)
 
