@@ -10,6 +10,7 @@ st.set_page_config(
     }
 )
 
+# DYSFUNCTIONAL
 # show_pages(
 #     [
 #         Page("streamlit_app.py", "Savings", "🌱"),
