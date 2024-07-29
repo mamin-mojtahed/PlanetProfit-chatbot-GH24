@@ -2,13 +2,13 @@ import streamlit as st
 from st_pages import Page, add_page_title, hide_pages, Section
 from chatgpt import ask
 
-st.set_page_config(
-    page_title="PlanetProfit",
-    page_icon="✳️",
-    menu_items={
-        'About': "# Made by: Amin, Milind, Humza, Hussein - in GOODHack24"
-    }
-)
+# st.set_page_config(
+#     page_title="PlanetProfit",
+#     page_icon="✳️",
+#     menu_items={
+#         'About': "# Made by: Amin, Milind, Humza, Hussein - in GOODHack24"
+#     }
+# )
 
 # DYSFUNCTIONAL
 # show_pages(
@@ -20,7 +20,7 @@ st.set_page_config(
 
 col1t1,col2=st.columns(2)
 
-st.sidebar.markdown("# ✳️ PlanetProfit")
+# st.sidebar.markdown("# ✳️ PlanetProfit")
 
 # Variable to track the active tab
 active_tab = st.session_state.get("active_tab", "Savings 🌱")
