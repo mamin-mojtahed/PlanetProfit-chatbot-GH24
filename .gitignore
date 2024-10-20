@@ -1,2 +1,4 @@
 .streamlit
 __pycache__
+coordinates.csv
+filtered_line_data.csv
