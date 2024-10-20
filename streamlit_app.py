@@ -24,6 +24,7 @@ st.sidebar.markdown("# ✳️ PlanetProfit")
 
 p1 = st.Page("savings.py", title="Savings", icon="🌱")
 p2 = st.Page("community.py", title="Community", icon="🌳")
+p3 = st.Page("calculator.py", title="Calculator", icon="☘️")
 
-pg = st.navigation([p1, p2])
+pg = st.navigation([p1, p2, p3])
 pg.run()
